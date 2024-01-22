@@ -2,12 +2,14 @@ function shortcut(s1, s2) {
   // your code here
 
 	
-		if(s1.length>0 && s2.length>0){
-              return s1[0].toUpperCase() + s2[0].toUpperCase();
-		}else{
-			return ' '
+  if (str1.length > 0 && str2.length > 0) {
+      return str1[0].toUpperCase() + str2[0].toUpperCase();
+  } else
+  {
+    return '';
+  }
 		
-	}
+
 	
 }
 
