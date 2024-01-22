@@ -1,6 +1,6 @@
 
   // your code here
-function shortcut(str1, str2) 
+function shortcut(s1, s2) 
 if(s1.charAt(0)!=="" && s2.charAt(0)!=="")
 		return s1.charAt(0)+s2.charAt(0);
 		return "";	
