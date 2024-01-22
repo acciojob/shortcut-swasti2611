@@ -1,18 +1,9 @@
 
   // your code here
 function shortcut(str1, str2) 
-let str=''
-  if (str1.length > 0 && str2.length > 0) {
-	  
-    let s1= str1[0] ;
-	  let s2=str2[0];
-	  let ans=str1.concat(str2);
-	  return ans;
-	  
-	  
-  } else {
-    return '';
-  }
+if(s1.charAt(0)!=="" && s2.charAt(0)!=="")
+		return s1.charAt(0)+s2.charAt(0);
+		return "";	
 }
 
 // Do not change the code below.
