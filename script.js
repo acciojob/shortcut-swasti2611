@@ -1,15 +1,14 @@
 function shortcut(s1, s2) {
   // your code here
-if(s1==" " )return s1;
-if(s2==" ")return s2;	
-			let	str=''
+
 	for (let i  = 0; i  < s1.length; i ++) {
 		if(s1!=' ' && s2!= " "){
-               str+=s1.charAt(0).toUpperCase();
-			   str+=s2.charAt(0).toUpperCase();
+              return s1[0].toUpperCase() + s2[0].toUpperCase();
+		}else{
+			return ' '
 		}
 	}
-	return str;
+	
 }
 
 Do not change the code below.
